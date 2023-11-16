@@ -4,9 +4,6 @@ import dns.resolver
 import subprocess
 import nmap
 
-import whois
-import sys
-
 def get_domain_info(domain):
     print("Informacion sobre el dominio:")
     try:
